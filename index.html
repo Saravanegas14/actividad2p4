@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> trabajo </title>
+</head>
+<audio id= "pp" src="gota.mp3"></audio>
+
+<div class="hola"></div>
+<div class="t"><h1>Juego</h1></div>
+<style>
+	.t{
+			position: absolute;
+			width:100px;
+		    height:100px;
+			left: 600px;
+			top: 20px;
+			color:#000000;
+            font-family: Copperplate, Papyrus, fantasy, monospace;
+			
+
+		}
+	.hola1{
+			position: absolute;
+			width:100px;
+		    height:100px;
+			left: 500px;
+			top: 200px;
+			background: black;
+
+		}
+	.hola {
+		position: absolute;
+		    width:650px;
+		    height:500px;
+			left: 300px;
+			top: 100px;
+			background-color:#BA68C8;
+		}
+		
+		</style>
+<body>
+	<div class="fondo"><img src="f21.jpg" height="750px" width="1350px" /></div>
+	<div id="sara"class="hola1" onclick="agregar()">
+
+		<script>
+		function agregar(){
+
+			ram=Math.floor(Math.random() * 400) + 100;
+			sara.style.top=ram+"px";
+			la=Math.floor(Math.random() * 400) + 400;
+            sara.style.left=la+"px";
+            document.getElementById("pp").play();
+			
+		}
+	   y= setTimeout(agregar, 700);
+
+
+         
+
+		
+		</script>
+	
+
+</body>
+
